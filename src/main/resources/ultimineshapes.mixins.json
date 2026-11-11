@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.pedro.ultimineshapes.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "FTBUltimineMixin"
+  ],
+  "client": [
+    "FTBUltimineClientMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
